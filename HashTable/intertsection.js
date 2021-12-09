@@ -16,12 +16,20 @@ var intersect = function(nums1, nums2) {
        if(hashtable.hasOwnProperty(i)){
            intersection.push(i);
            hashtable[i].pop();
-           if(hashtable[i]==[]) delete hashtable[i];
+           if(hashtable[i].length===0) delete hashtable[i];
        }
    }
    return intersection;
 };
 
-
-
 console.log(intersect([1,2],[1,1]))
+
+
+/*
+ if(hashtable[i]==[]) delete hashtable[i]; -- doesn't work
+ 
+ if(hashtable[i].length===0) delete hashtable[i]; -- works
+
+
+
+*/
