@@ -26,6 +26,9 @@ console.log(intersect([1,2],[1,1]))
 
 
 /*
+ 
+ checking empty array
+ 
  if(hashtable[i]==[]) delete hashtable[i]; -- doesn't work
  
  if(hashtable[i].length===0) delete hashtable[i]; -- works
