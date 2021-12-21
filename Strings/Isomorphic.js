@@ -19,6 +19,7 @@ console.log(isIsomorphic("bacd","baba"))
 
 /*
 Two strings s and t are isomorphic if the characters in s can be replaced to get t.
+hashtaable for key as s-characters and value as replacement chrs pf t, condition no 
 NOTE: it is not two way relation.
 https://leetcode.com/problems/isomorphic-strings/submissions/
 */
