@@ -11,4 +11,4 @@ Eg. Array=[2,4,7,8,9] target=11 <br/> for i=1 hashtable= { '7': 4, '9': 2 } numb
 
 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)<br/>
 You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock]
-###
+####
